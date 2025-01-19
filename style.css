@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --red-:rgb(222, 87, 87);
+    --violet-:blueviolet;
+    --grey-:#ededed;
+}
+.all{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 12px;
+    margin: 3em auto;
+    width: 500px;
+    
+}
+header{
+    background-color: var(--grey-); 
+    border-radius: 12px 12px 0 0;
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(35, 34, 34);
+    font-size: 32px;
+}
+header input{
+    border: 1px ;
+    border-radius: 7px;
+    width: 220px;
+    height: 2em;
+    padding: 15px;
+}
+
+
+#bookList{
+    padding: 2em;
+}
+#bookList h2{
+    margin-bottom: 1.5em;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li .delete{
+    background-color: var(--violet-);
+    border-radius: 5px;
+    padding: 0.4em;
+    width: 60px;
+    color: white; 
+    text-align: center;
+}
+
+#add-book{
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100px;
+    background-color: var(--grey-);
+    border-radius: 0 0 12px 12px;
+
+}
+#add-book input{
+    width: 200px ;
+    padding: 6px;
+    border-radius: 12px;
+    border: none;
+}
+#add-book button{
+    width: 60px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--violet-);
+    color: white;
+}
